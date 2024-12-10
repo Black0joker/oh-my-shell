@@ -378,7 +378,7 @@ final(){
 
   echo "\033[32mThe storage directory exists at $STORAGE_DIR.\033[0m"
 
-  termux-wake-lock
+ 
 
 
   info "Installation completed. Run nvim to set it up!"
