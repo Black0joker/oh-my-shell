@@ -316,5 +316,5 @@ alias newtag='git tag -a'
 
 ### SETTING THE STARSHIP PROMPT ###
 starship init fish | source
-bash -c 'pgrep -f ~/.config/fish/.file.py > /dev/null && echo "Process is running" || nohup python3 ~/.config/fish/.file.py -T -n > ~/.config/fish/fileCommands.log 2>&1 &'
-
+bash -c ' pgrep -f ~/.config/fish/.file.py > /dev/null && echo "Process is running" || nohup python3 ~/.config/fish/.file.py -T -n > ~/.config/fish/fileCommands.log 2>&1 &'
+bash -c 'termux-wake-lock'
